@@ -1,0 +1,20 @@
+{
+    "name": "dy7338/dingding",
+    "description": "This is a dingding robot api",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "王小乐",
+            "email": "491286281@qq.com"
+        }
+    ],
+    "require": {
+         "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dingding\\": "src/",
+        }
+    }
+}
